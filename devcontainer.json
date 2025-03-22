@@ -1,0 +1,9 @@
+{
+    "name": "Python Qt Dev",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "postCreateCommand": "pip install -r requirements.txt && sudo apt update && sudo apt install -y libgl1-mesa-glx",
+    "features": {
+      "ghcr.io/devcontainers/features/common-utils:2": {}
+    }
+  }
+  
